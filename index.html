@@ -1,21 +1,132 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <title>Personal Profile</title>
+</head>
+
+<body>
+
+  <div class="p-5 bg-dark text-white text-center">
+    <blockquote class="blockquote">
+      <p style="font-family: Lucida Sans Regular; color: rgba(255, 179, 71, 0.925); font-weight:400;"><em>"Simple can be
+          harder than complex. You have to work hard to get your thinking clean
+          to make it simple. But it's worth in the end because once you get there, you can move mountains."</em>
+      </p>
+      <footer class="blockquote-footer text-right" style="color: #fff">Steve Jobs</footer>
+    </blockquote>
+  </div>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link"
+              href="https://ebony-lemur-dda.notion.site/My-Resume-ea2e7932cfb14cb7a7d89c4ff35420e0">Personal
+              Profile</a>
+
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">Project</a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/#Eye">Eyes movement</a></li>
+              <li><a class="dropdown-item" href="/#Pacman">Pacman</a></li>
+              <li><a class="dropdown-item" href="/#tracker">Bus Tracker</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    
-  </body>
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+        <h2>More about Me</h2>
+        <h5>Latest Video</h5>
+        <div class="youtube">Video</div>
+        <p> </p>
+        <h3 class="mt-4">One Stop Solutions for Start-up</h3>
+        <p> Very often, small business do not receive the same level of resources and professional support as large
+          corporations do.
+          That said, small business also need same kind of services, like, creative marketing campaign,
+          sustainable business growth strategies, agile finance strategies, versatile digital infrastructure,
+          efficient logistics management, smart business insurance, etc., in order to make continuous and sustainable
+          growth possible. </p>
+
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+        <h2>Pacman</h2>
+        <h5>created on April 10, 2022</h5>
+        <div class="fakeimg">Image</div>
+
+        <p> Project description:
+        </p>
+
+        <h2 class="mt-5">Bus Tracking</h2>
+        <h5>Created on April 30, 2022</h5>
+        <div class="fakeimg">Image</div>
+        <p>Project description:</p>
+        <h2 class="mt-5">Eyes Movement</h2>
+        <h5>Created on May 8, 2022</h5>
+        <div class="fakeimg">Image</div>
+        <p>Project description:</p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <ul class="social-icon wow shake p-0" data-wow-delay="0.5s">
+      <li><a href="#" class="faicon-facebook rounded-circle">
+          <i class="fab fa-facebook"></a></i>
+      </li>
+      <li><a href="#" class="faicon-twitter rounded-circle">
+          <i class="fab fa-twitter"></a></i>
+      </li>
+      <li><a href="#" class="faicon-instagram rounded-circle">
+          <i class="fab fa-instagram"></a></i>
+      </li>
+      <li><a href="#" class="faicon-linkedin rounded-circle">
+          <i class="fab fa-linkedin"></a></i>
+      </li>
+
+    </ul>
+  </div>
+
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+
+</body>
+
 </html>
