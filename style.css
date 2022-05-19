@@ -5,12 +5,19 @@
 
 .bg-dark {
  
-        background-color: #4f868c !important;
+        /* background-color: #4f868c !important;
+         */
+         background-color: #eb2e73 !important;
         padding: 1em;
       
 
 }
 
-.h5 {
+h5 {
     font-weight: lighter;
 }
+
+h2 {
+    color : #e71678;
+}
+
